@@ -68,7 +68,8 @@ dependencies {
     implementation(libs.material)
     implementation(libs.firebase.auth.ktx)
     implementation(libs.firebase.database.ktx)
-    implementation("com.squareup.okhttp3:okhttp:4.11.0")
+    implementation(libs.okhttp)
+    implementation(libs.jackson.module.kotlin) // Replace with the latest version
 
 
     testImplementation(libs.junit)
