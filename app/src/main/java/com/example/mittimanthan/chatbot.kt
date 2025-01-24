@@ -90,7 +90,6 @@ class ChatbotFragment : BottomSheetDialogFragment() {
             }
         }
 
-        // Add chip click listeners
         val chips = listOf(
             "Soil Organic" to "How do I measure soil organic carbon content??",
             "product" to "buy product",
@@ -117,7 +116,6 @@ class ChatbotFragment : BottomSheetDialogFragment() {
         val query = message
         val language = languageSpinner.selectedItem.toString()
 
-        // Try this URL instead
         val url = "https://mlnew-15.onrender.com/chat"  // Updated URL
 
         val client = OkHttpClient.Builder()
@@ -140,7 +138,6 @@ class ChatbotFragment : BottomSheetDialogFragment() {
             .addHeader("Content-Type", "application/x-www-form-urlencoded")
             .build()
 
-        // Show loading message
         activity?.runOnUiThread {
             chatAdapter.addMessage(ChatMessage("Finding an answer...", true))
         }
