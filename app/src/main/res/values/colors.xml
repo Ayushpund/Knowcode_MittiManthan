@@ -1,17 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Material Design Colors -->
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
-    <color name="green">#4CAF50</color>
     <color name="white">#FFFFFFFF</color>
     <color name="grey">#757575</color>
 
-    <color name="text_primary">#212121</color>
+    <color name="primary">#4CAF50</color>
+    <color name="primary_dark">#388E3C</color>
+    <color name="accent">#2AB8CA</color>
+
+    <color name="accent_dark">#2AAD2F</color>
+
+    <color name="background_light">#F5F5F5</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="background_dark">#121212</color>
+    <color name="surface_dark">#1E1E1E</color>
+
+    <color name="text_secondary">#757575</color>
+    <color name="text_primary_light">#212121</color>
+    <color name="text_secondary_light">#757575</color>
+    <color name="text_primary_dark">#FFFFFF</color>
+    <color name="text_secondary_dark">#B3FFFFFF</color>
+    <color name="on_surface_light">#000000</color>
+    <color name="on_surface_dark">#FFFFFF</color>
+
+    <color name="card_background_light">#FFFFFF</color>
+    <color name="card_background_dark">#2D2D2D</color>
+
+    <color name="status_bar_light">#FFFFFF</color>
+    <color name="status_bar_dark">#000000</color>
+
+    <color name="ripple_light">#1F000000</color>
+    <color name="ripple_dark">#33FFFFFF</color>
+
     <color name="green_bg_light">#E8F5E9</color>
+
+
     <color name="dark_green">#2E7D32</color>
+
+    <color name="light_green">#81C784</color>
+
+    <color name="primary_dark_theme">#81C784</color>
+    <color name="primary_dark_variant">#66BB6A</color>
+    <color name="accent_dark_theme">#03A9F4</color>
+    <color name="accent_dark_variant">#67AF13</color>
+
+    <color name="error">#B00020</color>
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FFC107</color>
+    <color name="info">#2196F3</color>
+
+    <color name="gray">#757575</color>
+    <color name="green">#4CAF50</color>
+    <color name="text_primary">#212121</color>
     <color name="background_color">#F5F5F5</color>
+    <color name="accent_color">#FF4081</color>
 </resources>
